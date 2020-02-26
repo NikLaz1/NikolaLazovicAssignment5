@@ -10,7 +10,7 @@ $(document).ready(function() {
     let nowHour24 = moment().format('H');
     let nowHour12 = moment().format('h');
   
-    // set times for tesitng after hours
+    // set times for testng after hours
     if (test) {
       nowHour24 = 13;
       nowHour12 = 1;
@@ -21,7 +21,7 @@ $(document).ready(function() {
     
     // using font awesome icon https://fontawesome.com/license
     // change description here - none
-    const saveIcon = "./images/save-regular.svg"; 
+    const saveIcon = "./images/save-regular.svg";
   
     // Get stored todos from localStorage
     // Parsing the JSON string to an object
